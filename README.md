@@ -14,11 +14,11 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
 
 ## Finding motions between frames:-
 
-1. Find good features in the current frame and previous frame.    
+1. Find good features in the current frame and previous frame (goodGeaturesToTrack) and (calcOpticalFlowPyrLK).  
 2. We use two set of points to find rigid transform that maps previous frame to the current frame(estimateRigidTranform).  
 3. Once the motion is estimated, we store the rotated, translated values.  
-4. We soothe the values, found in step 3.  
-5. Calculate smooth motion between frames. 
+4. We soothe the values, found in step 3 (moving average filter).  
+5. Calculate smooth motion between frames (trajectory).  
 6. Apply smoothed camera motion to frames.  
 
 ## Important functions used:-
