@@ -33,7 +33,7 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
    
  ## Version Requirements:-
  1. Python 2.7 or Python 3.1  
- 2. openCV version 3x  
+ 2. OpenCV version 3x  
    
 ## Usage:-
 <code> python video_stabilization.py </code>
