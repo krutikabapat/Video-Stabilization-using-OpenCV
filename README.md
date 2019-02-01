@@ -30,6 +30,9 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
   
 2. estimateRigidTransform():-  
    a) Computes an optimal affine transformation between two 2D point sets.  
+   
+## Usage:-
+<code> python video_stabilization.py </code>
 
 
   
