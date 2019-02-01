@@ -1,3 +1,5 @@
+# source learnopencv.com
+
 import numpy as np
 import cv2
 SMOOTHING_RADIUS=50
@@ -32,7 +34,7 @@ def fixBorder(frame):
 
 # Read input video
 
-cp = cv2.VideoCapture('/home/krutika/Documents/Feature_Descriptors/rohan.mp4')
+cp = cv2.VideoCapture('path to video file.mp4')
 
 # To get number of frames
 n_frames = int(cp.get(cv2.CAP_PROP_FRAME_COUNT))
