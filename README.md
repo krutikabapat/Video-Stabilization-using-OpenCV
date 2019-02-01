@@ -7,7 +7,7 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
 
 ## Steps for video stabilization:-
 
-1. Capture two frames of a video.  
+1. Capture two consequent frames of a video.  
 2. Find motion between thos two frames.  
 3. Correct the motion.  
 
