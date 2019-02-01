@@ -27,7 +27,11 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
    a) nextPts - output vector of 2D points (with single-precision floating-point coordinates) containing the calculated new         positions of input features in the second image.  
    b) status – output status vector (of unsigned chars); each element of the vector is set to 1 if the flow for the                 corresponding features has been found, otherwise, it is set to 0.  
    c) err -  outputs vector of errors, if the flow wasn’t found then the error is not defined.  
-   
+  
+2. estimateRigidTransform():-  
+   a) Computes an optimal affine transformation between two 2D point sets.  
+
+
   
 
 
