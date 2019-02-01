@@ -31,6 +31,10 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
 2. estimateRigidTransform():-  
    a) Computes an optimal affine transformation between two 2D point sets.  
    
+ ## Version Requirements:-
+ 1. Python 2.7 or Python 3.1  
+ 2. openCV version 3x  
+   
 ## Usage:-
 <code> python video_stabilization.py </code>
 
