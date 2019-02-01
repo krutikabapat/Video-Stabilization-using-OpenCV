@@ -12,7 +12,7 @@ In this, Euclidien Motion Model is used instead of Affine or Homographic transfo
 3. Correct the motion.  
 
 
-## Finding motins between frames:-
+## Finding motions between frames:-
 
 1. Find good features in the current frame and previous frame.    
 2. We use two set of points to find rigid transform that maps previous frame to the current frame(estimateRigidTranform).  
