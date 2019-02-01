@@ -1,7 +1,7 @@
 # Video-Stabilization
 Video Stabilization Using Point Feature Matching in OpenCV.  
 
-This mainly involves reducing the effect of motion due to translation, or rotation or any movement in camera.
+This mainly involves reducing the effect of motion due to translation or rotation or any movement in camera.
 In this, Euclidien Motion Model is used instead of Affine or Homographic transformation, because it is adequate for motion stabilization.  
 
 
